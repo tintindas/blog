@@ -8,3 +8,12 @@ declare namespace App {
 	// interface Session {}
 	// interface Stuff {}
 }
+
+interface MetaData {
+	path: string,
+	metadata: {
+		title: string
+		date: string
+		slug: string
+	}
+}

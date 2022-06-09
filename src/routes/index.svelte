@@ -1,2 +1,27 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script context="module">
+    const data = import.meta.glob("./posts/*/*/*.md")
+    
+    export const load =  async () => {
+        const allMetadata = []
+        for (let path in data) {
+        const {metadata} = await data[path]()
+            allMetadata.push({path, metadata})
+        }
+        
+        console.log(allMetadata);
+
+        return {
+            props: {allMetadata}
+        }
+    }
+</script>
+
+<script lang="ts">
+    export let allMetadata:MetaData[]
+</script>
+
+{#each allMetadata as {path, metadata}}
+    <li>
+        <a href={path.replace(".md", "")}>{metadata.title}</a>
+    </li>
+{/each}

@@ -2,11 +2,11 @@
 title: Making this blog
 date: 2022-06-09
 slug: making-this-blog
+subtitle: Pretty meta post right? A blog post about the creation of said blog. 
 ---
 
 # {title}
-
-Pretty meta post right? A blog post about the creation of said blog. 
+#### {subtitle}
 
 ## The Why
 
@@ -19,18 +19,18 @@ To be quite honest, the only reason I am creating this blog is to procrastinate 
 **What will this be?**
 
 - Documentation for the projects I hope to build in the coming years.
-- A diary of sorts to note down my thoughts about topics in tech which interest me. Sometimes I think I only really know what I think about something only after I have written it down.
+- A diary of sorts to note down my thoughts about topics in tech which interest me.
 - Maybe even some random thoughts about life in general.
 
 ## The How
 
 ### Progress
 
-- <input type="checkbox" checked/> Setup SvelteKit project with mdsvex
-- <input type="checkbox" checked/> Make an Index page which shows all posts.
-- <input type="checkbox" checked> Make an initial post.
-- <input type="checkbox" disabled> Add styles. (Tailwind maybe)
-- <input type="checkbox" disabled> Use Github Actions and Github Pages to deploy and host as a static site.
+<input type="checkbox" checked/> Setup SvelteKit project with mdsvex <br>
+<input type="checkbox" checked/> Make an Index page which shows all posts. <br>
+<input type="checkbox" checked> Make an initial post. <br>
+<input type="checkbox" disabled> Add styles. (Tailwind maybe) <br>
+<input type="checkbox" disabled> Use Github Actions and Github Pages to deploy and host as a static site. <br>
 
 ### Basic Setup
 

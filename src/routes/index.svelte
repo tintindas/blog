@@ -20,8 +20,10 @@
     export let allMetadata:MetaData[]
 </script>
 
-{#each allMetadata as {path, metadata}}
-    <li>
-        <a href={path.replace(".md", "")}>{metadata.title}</a>
-    </li>
-{/each}
+<main>
+    {#each allMetadata as {path, metadata}}
+        <li>
+            <a href={path.replace(".md", "")}>{metadata.title}</a>
+        </li>
+    {/each}
+</main>

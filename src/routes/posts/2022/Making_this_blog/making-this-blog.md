@@ -25,11 +25,11 @@ To be quite honest, the only reason I am creating this blog is to procrastinate 
 
 ### Progress
 
-<input type="checkbox" checked/> Setup SvelteKit project with mdsvex <br>
-<input type="checkbox" checked/> Make an Index page which shows all posts. <br>
-<input type="checkbox" checked> Make an initial post. <br>
-<input type="checkbox" disabled> Add styles. <br>
-<input type="checkbox" disabled> Use Github Actions and Github Pages to deploy and host as a static site. <br>
+✅ Setup SvelteKit project with mdsvex <br>
+✅ Make an Index page which shows all posts. <br>
+✅ Make an initial post. <br>
+🚝 Add styles. <br>
+🚝 Use Github Actions and Github Pages to deploy and host as a static site. <br>
 
 ### Basic Setup
 

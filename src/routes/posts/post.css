@@ -19,3 +19,7 @@ h4 {
     margin-top: 0;
     padding-top: 0;
 }
+
+input {
+    accent-color: var(--secondary);
+}

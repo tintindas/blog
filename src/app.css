@@ -1,5 +1,17 @@
+:root {
+    --bg: #24282b;
+    --primary: #35bd7c;
+    --txt: #fbfbf9;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+    color: var(--txt);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--primary);
 }
 
 h1 {
@@ -9,4 +21,8 @@ h1 {
 
 h2 {
     font-size: 2rem;
+}
+
+h4 {
+    color: white;
 }

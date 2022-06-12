@@ -1,5 +1,5 @@
 <script>
-    import './blog_post.css'
+    import './post.css'
 </script>
 
 <main>

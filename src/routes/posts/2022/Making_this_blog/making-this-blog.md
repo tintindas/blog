@@ -1,7 +1,6 @@
 ---
 title: Making this blog
 date: 2022-06-09
-slug: making-this-blog
 subtitle: Pretty meta post right? A blog post about the creation of said blog. 
 ---
 

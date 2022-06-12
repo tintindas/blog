@@ -44,6 +44,8 @@ The actual posts are written in **Markdown** and I am using **mdsvex** which let
 
 The plan is to use Github Actions to build the site everytime I push a change and then host it on Github Pages. What can I say I am team Octocat all the way.
 
+## Styling
+
 ### Tech Stack
 - Svelte
 - SvelteKit

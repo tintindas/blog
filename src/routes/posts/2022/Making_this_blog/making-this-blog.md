@@ -9,9 +9,9 @@ subtitle: Pretty meta post right? A blog post about the creation of said blog.
 
 ## The Why
 
-**Why make a blog anyway?** It's not like anyone is ever going to read it. Blogs are so 2005. Realistically, if I want an audience I should start a Tiktok page (channel?) or something.
+Why make a blog anyway? It's not like anyone is ever going to read it. Blogs are so 2005. Realistically, if I want an audience I should start a Tiktok page (channel?) or something.
 
-To be quite honest, the only reason I am creating this blog is to procrastinate doing some homework. I really should be studying some Computer Graphics at the moment instead of whatever it is I am doing. But who am I to stop myself from indulging in some self-destructive behaviour. 
+To be quite honest, the only reason I am creating this blog is to procrastinate doing some homework. I really should be studying some Computer Graphics at the moment instead of whatever it is I am doing. But who am I to stop myself from indulging in some sweet sweet self-destructive behaviour. 
 
 ## The What
 
@@ -28,7 +28,7 @@ To be quite honest, the only reason I am creating this blog is to procrastinate 
 <input type="checkbox" checked/> Setup SvelteKit project with mdsvex <br>
 <input type="checkbox" checked/> Make an Index page which shows all posts. <br>
 <input type="checkbox" checked> Make an initial post. <br>
-<input type="checkbox" disabled> Add styles. (Tailwind maybe) <br>
+<input type="checkbox" disabled> Add styles. <br>
 <input type="checkbox" disabled> Use Github Actions and Github Pages to deploy and host as a static site. <br>
 
 ### Basic Setup

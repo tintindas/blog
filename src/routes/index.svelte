@@ -7,7 +7,6 @@
         const {metadata} = await data[path]()
             allMetadata.push({path, metadata})
         }
-        
         console.log(allMetadata);
 
         return {
@@ -17,7 +16,7 @@
 </script>
 
 <script lang="ts">
-    export let allMetadata:MetaData[]
+export let allMetadata:MetaData[]
 </script>
 
 <main>
@@ -27,3 +26,11 @@
         </li>
     {/each}
 </main>
+
+<style>
+    main {
+        width: 70vw;
+        padding: 3rem;
+        margin: 0 auto;
+    }
+</style>

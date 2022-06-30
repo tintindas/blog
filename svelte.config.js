@@ -11,7 +11,7 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [
 		preprocess({}),
-		mdsvex(mdsvexConfig)
+		mdsvex(mdsvexConfig),
 	],
 
 	kit: {

@@ -2,6 +2,7 @@
 title: Making this blog
 date: 2022-06-09
 subtitle: Pretty meta post right? A blog post about the creation of said blog.
+hook: On building this blog. I talk about my motivation for creating this blog, the tech I used to do it etc. It's mostly a test post so I had something to work with and was not only rendering out empty arrays.
 ---
 
 # {title}

@@ -10,10 +10,11 @@ declare namespace App {
 }
 
 interface MetaData {
-	path: string,
+	path: string;
 	metadata: {
-		title: string
-		date: string
-		slug: string
-	}
+		title: string;
+		date: string;
+		slug: string;
+		hook: string;
+	};
 }

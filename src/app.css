@@ -1,29 +1,44 @@
+/* Reset */
+html,
+body,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 :root {
-    --bg: #24282b;
-    --primary: #35bd7c;
-    --secondary: #31bdd8;
-    --txt: #fbfbf9;
+	--bg: 206 9% 15%;
+	--primary: 151 56% 47%;
+	--secondary: 190 68% 52%;
+	--txt: 60 20% 98%;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: var(--bg);
-    color: var(--txt);
+	font-family: 'Poppins', sans-serif;
+	background-color: hsla(var(--bg));
+	color: hsla(var(--txt));
 }
 
-h1,h2,h3,h4,h5,h6 {
-    color: var(--primary);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: hsla(var(--primary));
 }
 
 h1 {
-    font-weight: 700;
-    font-size: 2.8rem;
+	font-weight: 700;
+	font-size: 2.8rem;
 }
 
 h2 {
-    font-size: 2rem;
+	font-size: 2rem;
 }
 
 h4 {
-    color: white;
+	color: white;
 }

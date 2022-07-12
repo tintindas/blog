@@ -5,7 +5,7 @@
 </div>
 
 <style>
-    .image-container{
+    .image-container {
         width: 300px;
         height: 300px;
         padding: 2px;

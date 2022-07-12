@@ -15,4 +15,8 @@
 	ul {
 		list-style: none;
 	}
+
+	li {
+		margin: 3vh 0;
+	}
 </style>

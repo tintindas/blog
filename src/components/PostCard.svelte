@@ -9,7 +9,7 @@
 	<div class="container">
 		<a href={path.replace('.md', '')}>
 			<div class="link-container">
-				<p>Read More</p>
+				<p class="more">Read More</p>
 				<img src="/arrow-right.svg" alt="go to post" />
 			</div>
 		</a>
@@ -50,10 +50,9 @@
 		margin-right: 4px;
 	}
 
-	p {
+	.more {
 		margin: 0;
 	}
-
 	img {
 		height: 15px;
 		width: 20px;

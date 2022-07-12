@@ -16,16 +16,23 @@
 </script>
 
 <script lang="ts">
+import NavBar from "../components/NavBar.svelte";
+
 export let allMetadata:MetaData[]
 </script>
 
-<main>
-    {#each allMetadata as {path, metadata}}
-        <li>
-            <a href={path.replace(".md", "")}>{metadata.title}</a>
-        </li>
-    {/each}
-</main>
+<div>
+    <NavBar />
+    <main>
+        <ul>
+            {#each allMetadata as {path, metadata}}
+                <li>
+                    <a href={path.replace(".md", "")}>{metadata.title}</a>
+                </li>
+            {/each}
+        </ul>
+    </main>
+</div>
 
 <style>
     main {

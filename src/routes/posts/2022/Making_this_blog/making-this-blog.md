@@ -1,17 +1,18 @@
 ---
 title: Making this blog
 date: 2022-06-09
-subtitle: Pretty meta post right? A blog post about the creation of said blog. 
+subtitle: Pretty meta post right? A blog post about the creation of said blog.
 ---
 
 # {title}
+
 #### {subtitle}
 
 ## The Why
 
 Why make a blog anyway? It's not like anyone is ever going to read it. Blogs are so 2005. Realistically, if I want an audience I should start a Tiktok page (channel?) or something.
 
-To be quite honest, the only reason I am creating this blog is to procrastinate doing some homework. I really should be studying some Computer Graphics at the moment instead of whatever it is I am doing. But who am I to stop myself from indulging in some sweet sweet self-destructive behaviour. 
+To be quite honest, the only reason I am creating this blog is to procrastinate doing some homework. I really should be studying some Computer Graphics at the moment instead of whatever it is I am doing. But who am I to stop myself from indulging in some sweet sweet self-destructive behaviour.
 
 ## The What
 
@@ -33,7 +34,7 @@ To be quite honest, the only reason I am creating this blog is to procrastinate 
 
 ### Basic Setup
 
-I am using **SvelteKit** as a static site generator to build this blog. Honestly, this is my first time using **Svelte** and it has been an absolute pleasure.  
+I am using **SvelteKit** as a static site generator to build this blog. Honestly, this is my first time using **Svelte** and it has been an absolute pleasure.
 
 Why SvelteKit? Because I felt like it. And Next.js is just too much of a hassle for creating a simple blog. And tbh, React is a bit of a pain to work with now. Also, Svelte has cool animation capabilities built into it. I flipping love transitions.
 
@@ -46,12 +47,7 @@ The plan is to use Github Actions to build the site everytime I push a change an
 ## Styling
 
 ### Tech Stack
+
 - Svelte
 - SvelteKit
 - mdsvex
-
-
-
-
-
-

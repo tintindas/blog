@@ -1,6 +1,9 @@
 <script>
 </script>
 
+<!-- TODO: Nav Routing -->
+<!-- TODO: Branding -->
+
 <nav>
 	<ul>
 		<li>Home</li>

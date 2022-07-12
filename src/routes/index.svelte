@@ -27,6 +27,9 @@
 	</main>
 </div>
 
+<!-- TODO: About Page -->
+
+<!-- TODO: Footer -->
 <style>
 	main {
 		width: 70vw;

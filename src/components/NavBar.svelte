@@ -1,8 +1,3 @@
-<script>
-</script>
-
-<!-- TODO: Tool tips -->
-
 <nav>
 	<a href="/" class="tooltip branding" data-text="Upamanyu Das"><h1>UD</h1></a>
 	<ul>

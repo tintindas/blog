@@ -77,11 +77,15 @@
 
 		border-radius: 3px;
 		background: hsla(0 0% 0% / 0.1);
-		display: none;
+		visibility: hidden;
+		opacity: 0;
+
+		transition: opacity 200ms;
 	}
 
 	.tooltip:hover::before {
-		display: block;
+		visibility: visible;
+		opacity: 1;
 	}
 
 	.branding.tooltip::before {

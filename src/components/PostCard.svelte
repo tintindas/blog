@@ -4,7 +4,7 @@
 </script>
 
 <div class="card">
-	<h2>{metadata.title}</h2>
+	<a href={path.replace('.md', '')}><h2>{metadata.title}</h2></a>
 	<p>{metadata.hook}</p>
 	<div class="container">
 		<a href={path.replace('.md', '')}>

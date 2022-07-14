@@ -1,7 +1,13 @@
 <script>
-    import './post.css'
+	import Footer from '../../components/Footer.svelte';
+	import NavBar from '../../components/NavBar.svelte';
+	import './post.css';
 </script>
 
-<main>
-    <slot></slot>
-</main>
+<div class="app">
+	<NavBar />
+	<main>
+		<slot />
+	</main>
+	<Footer />
+</div>

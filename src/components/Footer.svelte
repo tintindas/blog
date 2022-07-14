@@ -8,8 +8,8 @@
 
 <style>
 	footer {
-		position: fixed;
-		bottom: 1vh;
+		margin-top: auto;
+		margin-bottom: 1vh;
 		width: 100%;
 		text-align: center;
 		color: hsla(var(--primary) / 0.7);

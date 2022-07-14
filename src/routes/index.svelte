@@ -21,7 +21,7 @@
 	import PostList from '../components/PostList.svelte';
 </script>
 
-<div>
+<div class="app">
 	<NavBar />
 	<main>
 		<PostList {allMetadata} />

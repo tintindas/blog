@@ -44,3 +44,13 @@ h2 {
 h4 {
 	color: white;
 }
+
+hr {
+	border-color: hsla(var(--secondary) / 0.4);
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}

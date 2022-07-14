@@ -1,7 +1,6 @@
 <script>
 </script>
 
-<!-- TODO: Branding -->
 <!-- TODO: Tool tips -->
 
 <nav>

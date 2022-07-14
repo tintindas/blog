@@ -16,6 +16,7 @@
 
 <script lang="ts">
 	export let allMetadata: MetaData[];
+	import Footer from '../components/Footer.svelte';
 	import NavBar from '../components/NavBar.svelte';
 	import PostList from '../components/PostList.svelte';
 </script>
@@ -25,6 +26,7 @@
 	<main>
 		<PostList {allMetadata} />
 	</main>
+	<Footer />
 </div>
 
 <!-- TODO: About Page -->

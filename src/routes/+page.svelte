@@ -1,21 +1,9 @@
-<script context="module">
-	const data = import.meta.glob('./posts/*/*/*.md');
-
-	export const load = async () => {
-		const allMetadata = [];
-		for (let path in data) {
-			const { metadata } = await data[path]();
-			allMetadata.push({ path, metadata });
-		}
-
-		return {
-			props: { allMetadata }
-		};
-	};
-</script>
-
 <script lang="ts">
-	export let allMetadata: MetaData[];
+	import type { MetaData } from 'src/app';
+	export let data: { allMetadata: MetaData[] };
+
+	const allMetadata: MetaData[] = data.allMetadata;
+
 	import Footer from '../components/Footer.svelte';
 	import NavBar from '../components/NavBar.svelte';
 	import PostList from '../components/PostList.svelte';

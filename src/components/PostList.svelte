@@ -1,4 +1,5 @@
 <script lang="ts">
+	import type { MetaData } from 'src/app';
 	import PostCard from './PostCard.svelte';
 	export let allMetadata: MetaData[];
 </script>

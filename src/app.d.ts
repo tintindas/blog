@@ -9,7 +9,7 @@ declare namespace App {
 	// interface Stuff {}
 }
 
-interface MetaData {
+export interface MetaData {
 	path: string;
 	metadata: {
 		title: string;

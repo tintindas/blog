@@ -1,5 +1,5 @@
 import { defineMDSveXConfig as defineConfig } from 'mdsvex';
-import relativeImages from "mdsvex-relative-images";
+import relativeImages from 'mdsvex-relative-images';
 
 const config = defineConfig({
 	extensions: ['.svelte.md', '.md', '.svx'],
@@ -7,7 +7,7 @@ const config = defineConfig({
 	smartypants: {
 		quotes: true,
 		dashes: 'oldschool',
-		ellipses: true,
+		ellipses: true
 	},
 
 	remarkPlugins: [relativeImages],

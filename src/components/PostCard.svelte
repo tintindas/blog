@@ -4,10 +4,10 @@
 </script>
 
 <div class="card">
-	<a href={path.replace('.md', '')}><h2>{metadata.title}</h2></a>
+	<a href={path.split('/').slice(0, -1).join('/')}><h2>{metadata.title}</h2></a>
 	<p>{metadata.hook}</p>
 	<div class="container">
-		<a href={path.replace('.md', '')}>
+		<a href={path.split('/').slice(0, -1).join('/')}>
 			<div class="link-container">
 				<p class="more">Read More</p>
 				<img src="/arrow-right.svg" alt="go to post" />

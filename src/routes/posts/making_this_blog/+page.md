@@ -7,9 +7,9 @@ hook: On building this blog. I talk about my motivation for creating this blog, 
 
 <!-- TODO: Rewrite post -->
 
-# {title}
+# Making this blog
 
-#### {subtitle}
+#### Making this blog
 
 ## The Why
 
